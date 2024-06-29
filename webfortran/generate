@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+LFORTRAN_PATH=$(which lfortran)
+
+SOURCE=$1
+filename=$(basename "$SOURCE" | cut -d. -f1)
+
+$LFORTRAN_PATH $SOURCE --target=wasm32-unknown-emscripten -o $filename.js

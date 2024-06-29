@@ -1,4 +1,7 @@
 {
    "editor.fontFamily": "Fira Code",
-   "editor.fontLigatures": true
+   "editor.fontLigatures": true,
+   "workbench.colorTheme":"Moonlight II",
+   "workbench.iconTheme": "vscode-icons",
+   "editor.wordWrap": "on",
 }
